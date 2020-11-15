@@ -1,0 +1,71 @@
+.homeheader {
+    background-image: url(../img/bmw_m4_20.jpg);
+    width: 100%;
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.mainbar {
+    background: #343a40;
+    color: #fff;
+}
+.mainbar button {
+    color: #b9b9b9;
+}
+.mainbar button:hover {
+    color: #fff;
+}
+.dropdown-menu {
+    background: #343a40;
+    color: #b9b9b9;
+}
+.dropdown-toggle {
+    border-style: none;
+}
+.dropdown-menu a {
+    background: #343a40;
+    color: #b9b9b9;
+}
+.dropdown-menu a:hover {
+    background: #343a40;
+    color: #fff;
+}
+.cardhover:hover {
+    text-shadow: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    z-index: 2;
+}
+.cardlink {
+    text-decoration: none;
+    border-bottom: none;
+    color: #000;
+}
+.cardlink:hover {
+    text-decoration: none;
+    border-bottom: none;
+    color: #000;
+}
+.mytable {
+    vertical-align: top;
+    border-bottom: 1px solid #dee2e6;
+}
+footer a {
+    text-decoration: none;
+    border-bottom: none;
+    color: #b9b9b9;
+}
+footer a:hover {
+    text-decoration: none;
+    border-bottom: none;
+    color: #fff;
+}
+footer h5 {
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(187, 187, 187, 0.2);
+}
